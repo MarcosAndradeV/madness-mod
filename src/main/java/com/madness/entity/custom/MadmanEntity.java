@@ -11,8 +11,8 @@ import net.minecraft.entity.mob.PathAwareEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.world.World;
 
-public class MadEyeEntity extends PathAwareEntity {
-    public MadEyeEntity(EntityType<? extends PathAwareEntity> entityType, World world) {
+public class MadmanEntity extends PathAwareEntity {
+    public MadmanEntity(EntityType<? extends PathAwareEntity> entityType, World world) {
         super(entityType, world);
     }
 
