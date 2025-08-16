@@ -18,6 +18,9 @@
 		"main": [
 			"com.madness.Madness"
 		],
+    "client": [
+      "com.madness.MadnessClient"
+    ],
 		"fabric-datagen": [
 			"com.madness.MadnessDataGenerator"
 		]
