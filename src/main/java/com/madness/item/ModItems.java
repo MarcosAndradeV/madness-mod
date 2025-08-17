@@ -22,6 +22,16 @@ public class ModItems {
             new Item.Settings()
         )
     );
+    public static final Item MAD_MAN_SPAWN_EGG = Registry.register(
+        Registries.ITEM,
+        Identifier.of(Madness.MOD_ID, "mad_core"),
+        new SpawnEggItem(
+            ModEntities.MADMAN,
+            0x3A2EAD, // primary egg color (purple-ish)
+            0x00FF00, // secondary egg spots color (green)
+            new Item.Settings()
+        )
+    );
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Madness.MOD_ID, name), item);

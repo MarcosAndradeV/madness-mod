@@ -15,6 +15,8 @@ public class ModEntities {
         Registries.ENTITY_TYPE,
         Identifier.of(Madness.MOD_ID, "mad_man"),
         EntityType.Builder.<MadmanEntity>create(MadmanEntity::new, SpawnGroup.MONSTER)
+        .dimensions(1.0f, 4.0f)
+        .makeFireImmune()
         .build()
     );
 
